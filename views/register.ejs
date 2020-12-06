@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>login</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <nav class="navnext">
+        <ul>
+            <li><a href="/"> Home </a> </li>
+            <li><a href="/register"> Register </a> </li>
+            <li><a href="/login"> Login </a> </li>
+        </ul>
+    </nav>
+    <div class="container mt-4">
+        <form class="box" action="/auth/register" method="post">
+            <h1>Register</h1>
+            <input type="name" name="name" placeholder="Username" 
+            value="<%= typeof name != 'undefined' ? name : '' %>"/>
+            <input type="email" name="email" placeholder="Email"
+            value="<%= typeof email != 'undefined' ? email : '' %>"/>
+            <input type="password" name="password" placeholder="Password"
+            value="<%= typeof password != 'undefined' ? password : '' %>"/>
+            <input type="password" name="passwordConfirm" placeholder="Confirm Password"
+            value="<%= typeof password != 'undefined' ? passwordConfirm : '' %>"/>
+            <input type="submit" name="" value="Register">
+            <p class="lead mt-4"> Have An Account? <a class="ref"href="/login"> Login </a> </p>
+            <%- include ('partials/messages.ejs') %>
+        </form>
+    </div>
+</body>
+</html

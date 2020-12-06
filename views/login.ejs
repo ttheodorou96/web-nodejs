@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>login</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<nav class="navnext">
+        <ul>
+            <li><a href="/"> Home </a> </li>
+            <li><a href="/register"> Register </a> </li>
+            <li><a href="/login"> Login </a> </li>
+        </ul>
+    </nav>
+
+	<form class="box" action="auth/login" method="post">
+		<h1>Login</h1>
+		<input type="email" name="email" placeholder="Email">
+		<input type="password" name="password" placeholder="Password">
+		<input type="submit" name="" value="Login">
+		<p class="lead mt-4"> No Account? <a class="ref"href="/register"> Register </a> </p>
+		<%- include ('partials/messages.ejs') %> 
+	</form>
+</body>
+</html>
