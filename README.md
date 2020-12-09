@@ -1,6 +1,6 @@
 # nodejs-app
 
-Home/register/login pages for an academic project. 
+Home/register/login/dashboard pages for an academic project. 
 
 User can register if new or login if already has an account. 
 Project done with Nodejs and
@@ -12,9 +12,18 @@ $npm install
 
 #dependencies
 
-$npm i express ejs express-ejs-layout bcryptjs connect-flash mysql dotenv
-
-$npm i nodemon 
+$npm i bcryptjs 
+    connect-flash 
+    dotenv
+    ejs
+    express
+    express-ejs-layouts
+    express-session
+    jsonwebtoken
+    mysql
+    nodemon
+    passport
+    passport-local
 
 # How to run
 
