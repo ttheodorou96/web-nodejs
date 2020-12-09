@@ -137,3 +137,20 @@ nav li a:hover{
 	border-radius: 24px;
 	transition: 0.24s;
 }
+
+.btn :focus{
+	border-color: #70F8FF;
+}
+
+.btn :hover{
+	background-color: #6495ED;
+	border-color: #6495ED;
+	color: #f0ffff;
+	width: 229px;
+}
+
+.welcome {
+	color: aliceblue;
+	text-decoration: none;
+	font-weight: bold;
+}
