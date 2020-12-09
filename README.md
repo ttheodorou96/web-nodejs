@@ -24,6 +24,7 @@ $npm i bcryptjs
     nodemon
     passport
     passport-local
+    cookie-parser
 
 # How to run
 
