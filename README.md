@@ -4,6 +4,8 @@ Home/register/login/dashboard pages for an academic project.
 
 User can register if new or login if already has an account. 
 
+# HAR Files
+
 After the login user can upload HAR files. 
 
 So what's this HAR? HAR (HTTP Archive) is a file format used by several HTTP session tools to export the captured data. 
