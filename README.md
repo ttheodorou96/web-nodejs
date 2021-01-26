@@ -1,27 +1,8 @@
 # nodejs-app
 
-Home/register/login/dashboard pages for an academic project. 
+Just a Register/Login/Dashboard page I built for an academic project.
 
-User can register if new or login if already has an account. 
-
-# HAR Files
-
-After the login user can upload HAR files. 
-
-So what's this HAR? HAR (HTTP Archive) is a file format used by several HTTP session tools to export the captured data. 
-
-The format is basically a JSON object with a particular field distribution. 
-
-In any case, please note that not all the fields are mandatory, and many times some information won't be saved to the file.
-
-Also beware, HAR files contain sensitive data!
-
-->content of the pages you downloaded while recording
-
-->your cookies, which will allow anyone with the HAR file to impersonate your account
-
-->all the information that you submitted while recording: personal details, passwords, credit card numbers...
-
+Will be useful for future work.
 
 Project done with Nodejs and
 Connected with a database in mySql 
