@@ -2,9 +2,6 @@
 
 Just a Register/Login/Dashboard page I built for an academic project.
 
-Project done with Nodejs and
-Connected with a database in mySql 
-
 
 # How to run
 
@@ -15,6 +12,10 @@ Start Apache and MySQL
 >$npm start
 
 visit localhost on port 5000
+
+# Usage
+
+>nodemon app.js
 
 # Server running on PORT 5000
 
